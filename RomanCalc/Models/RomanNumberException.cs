@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RomanNumbers
+namespace romannumbers
 {
-    public class RomanNumberException : Exception
+    class RomanNumberException : Exception
     {
-        public RomanNumberException() { }
-        public RomanNumberException(string message) : base(message) { }
+        public RomanNumberException()
+        {
+        }
+        public RomanNumberException(string message) : base(message)
+        {
+        }
     }
 }

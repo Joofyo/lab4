@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RomanNumbers;
+using romannumbers;
 
 namespace RomanCalc.Models
 {
@@ -44,32 +44,5 @@ namespace RomanCalc.Models
             return arabicForm;
         }
     } 
-    /*
-    public ushort ToUshort(string value)
-        {
-            string temp = value;
-            ushort arabicForm = 0;
-            for (int i = 1; i < 13; i += 2)
-            {
-                while (temp.Contains(_symbolic[i]))
-                {
-                    arabicForm += _numeric[i];
-                    int startIndex = temp.IndexOf(_symbolic[i][0]);
-                    temp = temp.Remove(startIndex, _symbolic[i].Length);
-                }
-            }
-            for (int i = 0; i < 13; i += 2)
-            {
-                while (temp.Contains(_symbolic[i]))
-                {
-                    arabicForm += _numeric[i];
-                    int startIndex = temp.IndexOf(_symbolic[i][0]);
-                    temp = temp.Remove(startIndex, _symbolic[i].Length);
-                }
-            }
-
-            return arabicForm;
-        } 
-    */
-   // }
+   
 }

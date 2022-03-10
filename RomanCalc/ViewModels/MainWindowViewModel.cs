@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using ReactiveUI;
 using RomanCalc.Models;
-using RomanNumbers;
+using romannumbers;
 
 namespace RomanCalc.ViewModels
 {
